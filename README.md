@@ -3,7 +3,7 @@
 Petit code de monlyceee.net 🙄
 
 > ## Information🔍 ##
-Ce code a été créé dans un but éducatif, en aucun cas, je ne suis responsable de son utilisation. Tous les droits appartiennent à ent.iledefrance.fr
+J'ai créé ce site pour sensibiliser les gens à l'attaque du type phishng, ce site doit être utilisé uniquement si la victime est consentante. En aucun cas je suis responsable de l'utilisation faite avec. Tous les droits appartiennent à ent.iledefrance.fr
 ![image](https://user-images.githubusercontent.com/110695125/215355381-5ab04db4-d39e-4f5b-b562-8daf913aca7a.png)
 
 
