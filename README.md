@@ -1,6 +1,7 @@
 # monlycee.net-Phishing
 > ## story🎴 ## 
 Petit code de monlyceee.net 🙄
+Envoye des logs par telegram
 
 > ## Information🔍 ##
 J'ai créé ce site pour sensibiliser les gens à l'attaque du type phishng, ce site doit être utilisé uniquement si la victime est consentante. En aucun cas je suis responsable de l'utilisation faite avec. Tous les droits appartiennent à ent.iledefrance.fr
