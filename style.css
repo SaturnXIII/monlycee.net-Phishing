@@ -1,9 +1,23 @@
-<!-- voici mon magnifique css  -->
+voici mon magnifique css  -->
 
 body {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/1200px-HD_transparent_picture.png");
 }
 
+.checkbox {
+ 
+  appearance: auto;
+  border: 2px solid #8c939e;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 10px;
+  box-sizing: border-box;
+  margin-left: -569px;
+  margin-top: 106px;
+
+}
 div {
   float: left;
   height: 470px;
@@ -11,16 +25,42 @@ div {
   padding: 5 5px;
 }
 
-input {
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
+h2 {
+  font-family: "Roboto", sans-serif;
+  float: center;
+  font-size: 15px;
+  margin-left: 63px;
+  color: #7d7172;
+  text-decoration: none;
+  margin-top: -21px;
 }
+
+/* Place le texte vers le haut */
+a {
+  font-family: "Arial", sans-serif;
+  float: center;
+  font-size: 15px;
+  color: rgb(85,179,222);
+  margin-left: 35px;
+  text-decoration: none;
+  
+}
+
+img {
+width: 66px;
+  height: 56px;
+  margin-bottom: -30px;
+  transition: background-color 0.3s ease;
+  
+}
+
+
+
 
 .e1_2 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  width: 1520px;
-  height: 796px;
+  width: 100vw; /* Utilisation de 100vw pour que l'élément occupe 100% de la largeur de la fenêtre */
+  height: 100vh; /* Utilisation de 100vh pour que l'élément occupe 100% de la hauteur de la fenêtre */
   background-image: url(https://lh3.googleusercontent.com/drive-viewer/AJc5JmS5U4EHCxjSq-gHlpBtgR4YO6RX8lXA58yiw3suLnuDGUu6-7F3vQZhRGQApst0Lz2nlvMfMPk=w1920-h882);
   background-repeat: no-repeat;
   background-size: cover;
@@ -30,37 +70,42 @@ input {
 }
 
 .e3_2 {
-  width: 150px;
-  height: 110px;
-  background-image: url(https://lh3.googleusercontent.com/fife/AAbDypBjH7hkEcDrTCViK9yva_BI5gcrSqRObpC-60YI34deXPIGIqfg-wKxlky69u4Pfp32SdDw_BfXFvXdX8D5tPlrIbJatiFPeAdQMj7XI-QdZkCsmGwqkuRQ4hUc4AZfgD85N00rBZl2oUPiQ28kJO65Oy9i9zOl2STfz5KIcpwweRM2dxJxpNlmo6RDhDCJIBwVNfjXZPPchblxejNt_PRTt4szO4TdtXlb3c1O2CslYdLTisroxtzL-5SqTsho96hkljXZFl6SDT4LpLFmzoRTqzSltNXXstohxjhFJYt80npTcFY_B0M5SRDlSrqZ48LXPCnFycwJ6optMWrCMjn0Nk4JWS3HfHRc7PVnAbK2tdHwWr5rUw_K5DdRyjcLR4bcBBJH_7AiyqodlxMA3OybpNSfYfUyQTdJNEI72fmeFMERSGRkJb9zSZf2QtddvThfkU1vOV5HIcaXjdzTNc73Irkl-DbDhWeljOI6BK9Vbiu_vC78GNqOrlbCmbx6waaAIOzu4ZbkZk8DhehgNRUPAQRx2PJz_tatqLqOr8QYD795_PLQbeK98m8t-ys8KaInoDqXauR9JzRXpXYysXDSo-Ck4a7glgHPLWGrLLQQuL9c5cxfOinV7qJ8Qa4ciWEpm6NfSyUXwzCyaU78q30_JgtJ7fNzvaPi7kdwfJMUF7m3N6UAgjjQOmc5FrCd5V_3p8T3tIaUMWzkWHQNr1It1s4Qj5G1BYc5vPb9-wkEJAB8yBp-ud-WHM0sfxF4xtjFpJmVf94KyVcX0ezUD6483x5OnX6NQU3z25ekyeucGZ2rtdF7nt3qdUPNg-hFD1_8Z_qrtaBtivEhct6fJ770Ef-ZeEdna0EB_H0aBfgFyCtH93uS3ggBeNUGXHVBUyuJVkgrfvlz38VjXL-p9CMEcJBNlHbH_vxCzkcIRktFOkesDFDzln55t8ggmzEgHts7DmldFIW5wiX78rhn-BORr_jkou3E71-180OK1lR3EAKmzwUS4oilINQzqPODaYPKbng6eIjzbKTnidIDW1mRkFNXTjLnAYL9aFD4YpcAVF2Ldhjsnt9MeFahKDYvqQmdIYHfsYLxXssO8t_8MIL4koFD9jy05OJVVcQahZHldc4Vfh2Mt1WHhAx1qjtl8UA2HjkCECtCM5I0DyO6Bx2KqHnD8EayKOpGNHWTFIAqU9gC7ZZcThhPaUC4rbi13U-Stlcp8vuOZc0YYxiRg-P-yQoXfoh7_DI8tIhqAiTnrMq7089BnLRuRIZXk8M0Rbo80sLNFo7-UyNhNwi2WfKFkAlIjG8G5knU1e1isTAJfMeLzjkKk9dTQq4eknbmHfFjr_ZnyLS97SfIif-WPv_LD8wd-3fAQW-WG6BNlHXT_eB88ME2EZqmmHeynfACrvTtxGxyZ9g_UST0sGNNU2Z554X8XCJKp4-NiCPixN6TZnYDacDpSB2YkTQfodaKiMwTQK797d7laptgQN8=w1920-h978);
+  width: 300px;
+  height: 70px;
+  margin : 20px;
+  background-image: url(logo.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .e6_2 {
-  margin-left: 30px;
-  margin-top: 80px;
+  margin-top: 71px;
+  margin-left: -42px;
   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
-  width: 550px;
-  height: 470px;
+  width: 555px;
+  height: 486px;
   background-image: url(https://lh3.googleusercontent.com/drive-viewer/AJc5JmRfRDyyhdQH6zyvvB-9wKnVYQpCBo7rDag3Dvv_bSUfEu0Pb5rvTvmrMTX4RD6DcrZDYdI-ksw=w1920-h978);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+.text {
+  padding-top: 100px;
+  margin-left: 10px;
+}
+
+
 .e6_3 {
-  margin-top: 80px;
-  margin-left: 50px;
+  margin-top: 76px;
+  margin-left: 121px;
   box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
-  width: 500px;
-  height: 350px;
-  background-image: url(https://lh3.googleusercontent.com/fife/AAbDypBYz14xd_Lj9zF_A6EosCYwWovINAjJhTzilWoizmi_meTFT1SVVG_dRUYMU40RB9bYEQbKYp_uuRrq49A3_SrF23PlLWmQ59v-M0NYdlbIkkgjT88ZUXmBhhIl_KkEwf-23Wp-2KrQxU8YMCw4q8QZRWy1nup9OOZQKyUh0T9ifowR8w0loAFWH-B_z_xHvDhMkhaf-s6105s2GYnYqYMTqbGG0i4ESzSeNHF4gNIf5R-f8z3Cl6YGJPMRfzQG-_tMkrtf5yuZgBCvHjf-rwgddEUnFREbYjytGjKFcC0uPuTSzEtOjOm5OlAYZ8hrC98vd-2CIPcGHpxu6wfTBTNDhpOZGhSa-wyQjBdKxQUSc6KWzJQrcnYt-EWBAk-73XlpGx1nUcXUiBn_7UPml8jTYmdXS6im9ymaxPvDP-CkHLsyVrC-Q1W8_agFgLZQBcBkW7R0VGz0NPGuCq7rhcT5j1batjwpOqTjxKDlA-bobT1KjQqgV2yRSKkHcjy4OK6YM5At3f8ZoLzTvnUBGTfcPLjUsQbVsbQiLVDGUh5Ih38PU0hVoB_yBNkAgfJQauLTiu5ZFk0tkMFeoWAsW2KeBcuvyBdJS7Gt6Sg6o1Toi8tEU4za3i9BSNkdRJusTYYqLgGvMcYuntoFk-RP6bH6tlxF4VQ_7K5u6cHzATe378W9gKy39AKyfs5cWAguYz_QLemeDuDyMX5ErwitTgIheFqgUvZn88Vx1v84BQU1WLs2HhSG5bcwO-gR9CI7Kj7FBKIJsD26_-9xxdO3HPPnM8GqiOckPFDcq8EPLugWa94YkSfx7MPUysIiKRlg0sX0VOJUR_wZjbc_RsejX-lli7YpmGT5Kcj3oR2MH-YWgxbJU4WT36pTsT4xIyjaGBZsqN185zJU-U3jlcpLqUiHvaJR125nsnwJxHNNtQTQi3VILmOZOnyGPkxVUphK_SPSyR57u0MrwRDfJFYDMHMC0PmygIKjFZxsFT3Zdo8ng9O0KmnRJHrSgPuBDZQrAbfdTvbL4zkUbpY8kANXG6fF2aNGGXoEFUxNb4q0Vf1319jdElowThfjG9vm_-OBTOBpWomIANfWNjmRltxC054UCuTA0SVeRqO-M8aUtpzD5BGLb_7Fd44ifsqDTM_TxvdVm31QSxNg6h0aKtixz0wig7TSujrKOCNpa-fMEoiqXzRE_nX4Ynl1J26AmTFZ4GrW-TbdQUMHg7EXBlIwDyx7819sGbQwXpRjHo91C5vG5S5PDbevoQbq2ImrGy1YyL23Zxsy8nHeYzhxVXsMhx1rTCTif-UvuK9-bUKny73dbymIVWYBYhjH5hJPjxeB7Z3zNyArBHM1ob6gp-Y4Y-izMvztMdqWct8nifZZIc8XXSNOSrOo5mwd84--ot2j-s9EA_y6YXDZMj3zfKiFcQ0yFq3AYWVwg4AGVVZ8h8usj3RCQx1opdewqtmfqsAtHkSLrmyHoJEJkAlHepA=w1920-h612);
+  width: 619px;
+  height: 354px;
+  background-image: url(login.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
-.6_3 {
-  border: 1px solid rgba(0, 0, 0, 1);
-}
+
 
 .e6_4 {
   margin-left: 360px;
@@ -72,11 +117,12 @@ input {
   background-size: cover;
 }
 
+
 .h1 {
   font-family: "Roboto", sans-serif;
   font-size: 40px;
   color: white;
-  margin-left: 650px;
+  margin-left: 807px;
 }
 .input1 {
   overflow: hidden;
@@ -86,25 +132,37 @@ input {
   border: none;
   margin: 0;
   background: rgba(0, 0, 0, 0);
-  margin-left: 35px;
-  margin-top: 80px;
-  width: 440px;
-  height: 40px;
+  margin-left: 33px;
+  margin-top: 77px;
+  width: 544px;
+  height: 41px;
+  font-size: 15px;
+  border-bottom: 1.5px solid rgba(214,217,224,255);
+  outline: none;
+
+
+}
+
+.input1:focus {
   font-size: 15px;
   border-bottom: 2px solid orange;
-  outline: none;
 }
 
 .input2 {
   background-color: transparent;
   border: 0px solid;
-  border-bottom: 2px solid orange;
+  border-bottom: 1.5px solid rgba(214,217,224,255);
 
   margin-left: 35px;
-  margin-top: 37px;
-  width: 386px;
-  height: 40px;
+  margin-top: 47px;
+  width: 481px;
+  height: 41px;
   outline: none;
+}
+
+.input2:focus {
+  font-size: 15px;
+  border-bottom: 2px solid orange;
 }
 
 .form1 input {
@@ -117,16 +175,24 @@ input {
 }
 
 .submit {
-   margin-left: 380px;
-  margin-top: 70px;
+   margin-left: 499px;
+  margin-top: -29px;
   width: 100px;
   height: 40px;
   background-color: #FF8500;
   border: none;
   color: white;
   border-radius: 0.15rem;
-  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.07);
+  box-shadow: 0.5px 7px 7px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transition douce pour un effet plus fluide */
+   /*! box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25); */
 }
+
+.submit:hover {
+  background-color: #915719f7; /* Couleur de fond assombrie */
+}
+
 
 .a1 {
   margin-left: 37px;
